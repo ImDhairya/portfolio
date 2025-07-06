@@ -1,5 +1,5 @@
 import {Github, Linkedin, Mail, Phone} from "lucide-react";
-import React, {useEffect, useState} from "react";
+import {useEffect, useState} from "react";
 import express from "../../assets/express-svgrepo-com.svg";
 import github from "../../assets/github-142-svgrepo-com.svg";
 import golang from "../../assets/golang-svgrepo-com.svg";
@@ -8,7 +8,6 @@ import node from "../../assets/node-js-svgrepo-com.svg";
 import react from "../../assets/react-svgrepo-com.svg";
 import typescript from "../../assets/typescript-icon-svgrepo-com.svg";
 import resume from "../../assets/Dhairya Resume.pdf";
-import {CardStack} from "./ui/card-stack";
 
 const Projects = () => {
   async function getGidData() {

@@ -1,5 +1,4 @@
 import {Github, Linkedin, Phone, User} from "lucide-react";
-import React, {useMemo} from "react";
 
 const Header = () => {
   return (
