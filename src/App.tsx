@@ -1,7 +1,6 @@
 import Header from "./components/Header.tsx";
 import Projects from "./components/Projects.tsx";
 import {BackgroundGradientAnimation} from "./components/ui/background-gradient-animation.tsx";
-import WorkingSkills from "./components/WorkingSkills.tsx";
 export default function HomePage() {
   return (
     <div className=" text-white">
@@ -22,7 +21,6 @@ export default function HomePage() {
       </div>
       <div className="relative z-10">
         <Header />
-        {/* <WorkingSkills/> */}
         <Projects />
       </div>
     </div>
