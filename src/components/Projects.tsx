@@ -5,7 +5,7 @@ import github from "../../assets/github-142-svgrepo-com.svg";
 import golang from "../../assets/golang-svgrepo-com.svg";
 import js from "../../assets/js-svgrepo-com.svg";
 import node from "../../assets/node-js-svgrepo-com.svg";
-import react from "../../assets/react-svgrepo-com.svg";
+import reactLogo from "../../assets/react-svgrepo-com.svg";
 import typescript from "../../assets/typescript-icon-svgrepo-com.svg";
 import resume from "../../assets/Dhairya Resume.pdf";
 
@@ -148,7 +148,7 @@ const Projects = () => {
                     className=" m-2"
                     height={20}
                     width={20}
-                    src={react}
+                    src={reactLogo}
                     alt=" "
                   />
                   React
