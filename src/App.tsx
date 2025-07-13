@@ -3,8 +3,8 @@ import Projects from "./components/Projects.tsx";
 import {BackgroundGradientAnimation} from "./components/ui/background-gradient-animation.tsx";
 export default function HomePage() {
   return (
-    <div className=" text-white">
-      <div className="absolute inset-0 z-0">
+    <div className=" text-white min-h-screen relative">
+      <div className="fixed z-0">
         <BackgroundGradientAnimation
           className="z-0"
           gradientBackgroundStart="rgb(0, 0, 0)"
